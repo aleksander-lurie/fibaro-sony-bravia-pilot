@@ -32,7 +32,7 @@ Fibaro Virtual Device for controlling the Sony Bravia TV
 # Virtual Device
 * go to `Devices` tab
 * click on the `Add or remove device` at the left menu
-* scroll down to the `To add the Virtual Device` section and import a `Sony-TV.vfib`
+* scroll down to the `To add the Virtual Device` section and import a `fibaro-sony-bravia-pilot.vfib`
 * assign a new created device to your room
 
-Thats it :D
+That's it :D
