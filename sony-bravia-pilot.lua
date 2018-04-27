@@ -4,9 +4,7 @@
 %% globals
 --]]
 
-local sonyip = 'xxx.xxx.xxx.xxx' --set ip of your sony tv
-
--- do not edit below
+local sonyip = fibaro:getGlobalValue('SB_IP');
 local sonypsk = fibaro:getGlobalValue('SB_PSK');
 local function putMethod(requestUrl, data, successCallback, errorCallback)
   local http = net.HTTPClient()

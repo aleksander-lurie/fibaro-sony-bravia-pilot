@@ -1,1 +1,968 @@
-{"name":"Sony TV","type":"virtual_device","properties":{"deviceIcon":1002,"currentIcon":"1002","log":"","logTemp":"","mainLoop":"","ui.Label1.value":"","visible":"true","rows":[{"type":"button","elements":[{"id":1,"lua":true,"waitForResponse":false,"caption":"SRC","name":"button_0_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAlAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":2,"lua":false,"waitForResponse":false,"caption":"","name":"button_0_1","empty":true,"msg":"","buttonIcon":0,"favourite":false,"main":false},{"id":3,"lua":true,"waitForResponse":false,"caption":"⌽","name":"button_0_2","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAVAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":true}]},{"type":"button","elements":[{"id":4,"lua":true,"waitForResponse":false,"caption":"DI/ANA","name":"button_1_3","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAgAAAHcAAAANAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":5,"lua":false,"waitForResponse":false,"caption":"TV/RAD","name":"button_1_0","empty":false,"msg":"Ciąg znaków do wysłania","buttonIcon":0,"favourite":false,"main":false},{"id":6,"lua":true,"waitForResponse":false,"caption":"SYNC M","name":"button_1_1","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAgAAABoAAABYAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":7,"lua":true,"waitForResponse":false,"caption":"EXIT","name":"button_1_2","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAABjAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":8,"lua":false,"waitForResponse":false,"caption":"","name":"button_2_3","empty":true,"msg":"","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":9,"lua":true,"waitForResponse":false,"caption":"1  ./","name":"button_3_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAAAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":10,"lua":true,"waitForResponse":false,"caption":"2 abc","name":"button_3_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAABAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":11,"lua":true,"waitForResponse":false,"caption":"3 def","name":"button_3_1","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAACAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":12,"lua":true,"waitForResponse":false,"caption":"4 ghi","name":"button_4_2","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAADAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":13,"lua":true,"waitForResponse":false,"caption":"5 jkl","name":"button_4_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAEAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":14,"lua":true,"waitForResponse":false,"caption":"6 mno","name":"button_4_1","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAFAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":15,"lua":true,"waitForResponse":false,"caption":"7pqrs","name":"button_5_2","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAGAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":16,"lua":true,"waitForResponse":false,"caption":"8 tuv","name":"button_5_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAHAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":17,"lua":true,"waitForResponse":false,"caption":"9wxyz","name":"button_5_1","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAIAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":18,"lua":true,"waitForResponse":false,"caption":"i+ ?","name":"button_6_2","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAA6Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":19,"lua":true,"waitForResponse":false,"caption":"0 _","name":"button_6_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAJAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":20,"lua":true,"waitForResponse":false,"caption":"☰","name":"button_6_1","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAA/Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":21,"lua":false,"waitForResponse":false,"caption":"","name":"button_7_2","empty":true,"msg":"","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":22,"lua":true,"waitForResponse":false,"caption":"YouTuBe","name":"button_8_0","empty":false,"msg":"fibaro:setGlobal('SB_APP', 'com.sony.dtv.com.google.android.youtube.tv.com.google.android.apps.youtube.tv.cobalt.activity.ShellActivity');\nfibaro:startScene(fibaro:getGlobalValue('SB_APPCTRL_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":23,"lua":true,"waitForResponse":false,"caption":"NETFLIX","name":"button_8_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAgAAABoAAAB8Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":24,"lua":true,"waitForResponse":false,"caption":"Red","name":"button_9_1","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAlAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":25,"lua":true,"waitForResponse":false,"caption":"Green","name":"button_9_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAmAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":26,"lua":true,"waitForResponse":false,"caption":"Yellow","name":"button_9_1","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAnAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":27,"lua":true,"waitForResponse":false,"caption":"Blue","name":"button_9_2","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAkAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":28,"lua":false,"waitForResponse":false,"caption":"","name":"button_10_3","empty":true,"msg":"","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":29,"lua":true,"waitForResponse":false,"caption":"TV","name":"button_11_0","empty":false,"msg":"--little hacky but could not find ircc code for it\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAAKQAAABbAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));\nfibaro:sleep(1000);\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAABjAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":30,"lua":true,"waitForResponse":false,"caption":"ACTION M","name":"button_11_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAA2Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":31,"lua":true,"waitForResponse":false,"caption":"GUIDE","name":"button_11_1","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAOAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":32,"lua":false,"waitForResponse":false,"caption":"","name":"button_12_2","empty":true,"msg":"","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":33,"lua":false,"waitForResponse":false,"caption":"","name":"button_13_0","empty":true,"msg":"","buttonIcon":0,"favourite":false,"main":false},{"id":34,"lua":true,"waitForResponse":false,"caption":"↑","name":"button_13_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAB0Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":35,"lua":false,"waitForResponse":false,"caption":"","name":"button_13_1","empty":true,"msg":"","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":36,"lua":true,"waitForResponse":false,"caption":"←","name":"button_14_2","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAA0Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":37,"lua":true,"waitForResponse":false,"caption":"⎆","name":"button_14_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAABlAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":38,"lua":true,"waitForResponse":false,"caption":"→","name":"button_14_1","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAzAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":39,"lua":false,"waitForResponse":false,"caption":"","name":"button_15_2","empty":true,"msg":"","buttonIcon":0,"favourite":false,"main":false},{"id":40,"lua":true,"waitForResponse":false,"caption":"↓","name":"button_15_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAB1Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":41,"lua":false,"waitForResponse":false,"caption":"","name":"button_15_1","empty":true,"msg":"","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":42,"lua":false,"waitForResponse":false,"caption":"","name":"button_16_2","empty":true,"msg":"","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":43,"lua":true,"waitForResponse":false,"caption":"⏎ BACK","name":"button_17_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAjAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":44,"lua":true,"waitForResponse":false,"caption":"DISCOVER","name":"button_17_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAgAAABoAAABzAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":45,"lua":true,"waitForResponse":false,"caption":"HOME","name":"button_17_1","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAABgAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":46,"lua":false,"waitForResponse":false,"caption":"","name":"button_18_2","empty":true,"msg":"","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":47,"lua":true,"waitForResponse":false,"caption":"VOL +","name":"button_19_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAASAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":48,"lua":true,"waitForResponse":false,"caption":"↻","name":"button_19_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAA7Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":49,"lua":true,"waitForResponse":false,"caption":"CH +","name":"button_19_1","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAQAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":50,"lua":true,"waitForResponse":false,"caption":"VOL -","name":"button_20_2","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAATAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":51,"lua":true,"waitForResponse":false,"caption":"🔇","name":"button_20_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAUAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":52,"lua":true,"waitForResponse":false,"caption":"CH -","name":"button_20_1","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAARAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":53,"lua":false,"waitForResponse":false,"caption":"","name":"button_21_2","empty":true,"msg":"","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":54,"lua":true,"waitForResponse":false,"caption":"⚭","name":"button_22_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAXAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":55,"lua":true,"waitForResponse":false,"caption":"◄◄","name":"button_22_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAbAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":56,"lua":true,"waitForResponse":false,"caption":"►","name":"button_22_1","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAaAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":57,"lua":true,"waitForResponse":false,"caption":"►►","name":"button_22_2","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAcAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":58,"lua":true,"waitForResponse":false,"caption":"…","name":"button_23_3","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAoAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":59,"lua":true,"waitForResponse":false,"caption":"❙◄◄","name":"button_23_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAA8Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":60,"lua":true,"waitForResponse":false,"caption":"❚ ❚","name":"button_23_1","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAZAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":61,"lua":true,"waitForResponse":false,"caption":"►►❙","name":"button_23_2","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAA9Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID');","buttonIcon":0,"favourite":false,"main":false}]},{"type":"button","elements":[{"id":62,"lua":true,"waitForResponse":false,"caption":"HELP","name":"button_24_3","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAgAAABoAAAB7Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":63,"lua":true,"waitForResponse":false,"caption":"⭕","name":"button_24_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAgAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":64,"lua":true,"waitForResponse":false,"caption":"◼","name":"button_24_1","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAYAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":65,"lua":true,"waitForResponse":false,"caption":"TITLE","name":"button_24_2","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAgAAABoAAABlAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false}]},{"type":"label","elements":[{"id":66,"lua":false,"waitForResponse":false,"caption":"SONY TV","name":"Label1","favourite":true,"main":false}]},{"type":"button","elements":[{"id":67,"lua":true,"waitForResponse":false,"caption":"ON","name":"button_26_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAuAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false},{"id":68,"lua":true,"waitForResponse":false,"caption":"OFF","name":"button_26_0","empty":false,"msg":"fibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAvAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));","buttonIcon":0,"favourite":false,"main":false}]}]},"actions":{"pressButton":1,"setSlider":2,"setProperty":2}}
+{
+  "name": "Sony TV",
+  "type": "virtual_device",
+  "properties": {
+    "deviceIcon": 1002,
+    "currentIcon": "0",
+    "log": "",
+    "logTemp": "",
+    "mainLoop": "",
+    "ui.Label1.value": "",
+    "visible": "true",
+    "rows": [
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 1,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "SRC",
+            "name": "button_0_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAlAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 2,
+            "lua": false,
+            "waitForResponse": false,
+            "caption": "",
+            "name": "button_0_1",
+            "empty": true,
+            "msg": "",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 3,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "⌽",
+            "name": "button_0_2",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAVAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": true
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 4,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "DI/ANA",
+            "name": "button_1_3",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAAHcAAAANAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 5,
+            "lua": false,
+            "waitForResponse": false,
+            "caption": "TV/RAD",
+            "name": "button_1_0",
+            "empty": false,
+            "msg": "Ciąg znaków do wysłania",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 6,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "SYNC M",
+            "name": "button_1_1",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAABoAAABYAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 7,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "EXIT",
+            "name": "button_1_2",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAABjAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 8,
+            "lua": false,
+            "waitForResponse": false,
+            "caption": "",
+            "name": "button_2_3",
+            "empty": true,
+            "msg": "",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 9,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "1  ./",
+            "name": "button_3_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAAAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 10,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "2 abc",
+            "name": "button_3_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAABAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 11,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "3 def",
+            "name": "button_3_1",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAACAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 12,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "4 ghi",
+            "name": "button_4_2",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAADAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 13,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "5 jkl",
+            "name": "button_4_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAEAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 14,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "6 mno",
+            "name": "button_4_1",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAFAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 15,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "7pqrs",
+            "name": "button_5_2",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAGAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 16,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "8 tuv",
+            "name": "button_5_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAHAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 17,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "9wxyz",
+            "name": "button_5_1",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAIAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 18,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "i+ ?",
+            "name": "button_6_2",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAA6Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 19,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "0 _",
+            "name": "button_6_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAJAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 20,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "☰",
+            "name": "button_6_1",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAA/Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 21,
+            "lua": false,
+            "waitForResponse": false,
+            "caption": "",
+            "name": "button_7_2",
+            "empty": true,
+            "msg": "",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 22,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "YouTuBe",
+            "name": "button_8_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_APP', 'com.sony.dtv.com.google.android.youtube.tv.com.google.android.apps.youtube.tv.cobalt.activity.ShellActivity');\nfibaro:startScene(fibaro:getGlobalValue('SB_APPCTRL_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 23,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "NETFLIX",
+            "name": "button_8_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAABoAAAB8Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 24,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "Red",
+            "name": "button_9_1",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAlAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 25,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "Green",
+            "name": "button_9_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAmAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 26,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "Yellow",
+            "name": "button_9_1",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAnAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 27,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "Blue",
+            "name": "button_9_2",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAkAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 28,
+            "lua": false,
+            "waitForResponse": false,
+            "caption": "",
+            "name": "button_10_3",
+            "empty": true,
+            "msg": "",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 29,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "TV",
+            "name": "button_11_0",
+            "empty": false,
+            "msg": "--little hacky but could not find ircc code for it\nfibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAAKQAAABbAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));\nfibaro:sleep(1000);\nfibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAABjAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 30,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "ACTION M",
+            "name": "button_11_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAA2Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 31,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "GUIDE",
+            "name": "button_11_1",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAOAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 32,
+            "lua": false,
+            "waitForResponse": false,
+            "caption": "",
+            "name": "button_12_2",
+            "empty": true,
+            "msg": "",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 33,
+            "lua": false,
+            "waitForResponse": false,
+            "caption": "",
+            "name": "button_13_0",
+            "empty": true,
+            "msg": "",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 34,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "↑",
+            "name": "button_13_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAB0Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 35,
+            "lua": false,
+            "waitForResponse": false,
+            "caption": "",
+            "name": "button_13_1",
+            "empty": true,
+            "msg": "",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 36,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "←",
+            "name": "button_14_2",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAA0Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 37,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "⎆",
+            "name": "button_14_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAABlAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 38,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "→",
+            "name": "button_14_1",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAzAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 39,
+            "lua": false,
+            "waitForResponse": false,
+            "caption": "",
+            "name": "button_15_2",
+            "empty": true,
+            "msg": "",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 40,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "↓",
+            "name": "button_15_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAB1Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 41,
+            "lua": false,
+            "waitForResponse": false,
+            "caption": "",
+            "name": "button_15_1",
+            "empty": true,
+            "msg": "",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 42,
+            "lua": false,
+            "waitForResponse": false,
+            "caption": "",
+            "name": "button_16_2",
+            "empty": true,
+            "msg": "",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 43,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "⏎ BACK",
+            "name": "button_17_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAjAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 44,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "DISCOVER",
+            "name": "button_17_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAABoAAABzAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 45,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "HOME",
+            "name": "button_17_1",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAABgAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 46,
+            "lua": false,
+            "waitForResponse": false,
+            "caption": "",
+            "name": "button_18_2",
+            "empty": true,
+            "msg": "",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 47,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "VOL +",
+            "name": "button_19_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAASAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 48,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "↻",
+            "name": "button_19_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAA7Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 49,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "CH +",
+            "name": "button_19_1",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAQAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 50,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "VOL -",
+            "name": "button_20_2",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAATAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 51,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "🔇",
+            "name": "button_20_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAUAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 52,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "CH -",
+            "name": "button_20_1",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAARAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 53,
+            "lua": false,
+            "waitForResponse": false,
+            "caption": "",
+            "name": "button_21_2",
+            "empty": true,
+            "msg": "",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 54,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "⚭",
+            "name": "button_22_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAXAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 55,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "◄◄",
+            "name": "button_22_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAbAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 56,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "►",
+            "name": "button_22_1",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAaAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 57,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "►►",
+            "name": "button_22_2",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAcAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 58,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "…",
+            "name": "button_23_3",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAoAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 59,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "❙◄◄",
+            "name": "button_23_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAA8Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 60,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "❚ ❚",
+            "name": "button_23_1",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAZAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 61,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "►►❙",
+            "name": "button_23_2",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAA9Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID');",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 62,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "HELP",
+            "name": "button_24_3",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAABoAAAB7Aw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 63,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "⭕",
+            "name": "button_24_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAgAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 64,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "◼",
+            "name": "button_24_1",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAAJcAAAAYAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 65,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "TITLE",
+            "name": "button_24_2",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAABoAAABlAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "label",
+        "elements": [
+          {
+            "id": 66,
+            "lua": false,
+            "waitForResponse": false,
+            "caption": "SONY TV",
+            "name": "Label1",
+            "favourite": true,
+            "main": false
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "elements": [
+          {
+            "id": 67,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "ON",
+            "name": "button_26_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAuAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          },
+          {
+            "id": 68,
+            "lua": true,
+            "waitForResponse": false,
+            "caption": "OFF",
+            "name": "button_26_0",
+            "empty": false,
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAvAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "buttonIcon": 0,
+            "favourite": false,
+            "main": false
+          }
+        ]
+      }
+    ]
+  },
+  "actions": {
+    "pressButton": 1,
+    "setSlider": 2,
+    "setProperty": 2
+  }
+}
