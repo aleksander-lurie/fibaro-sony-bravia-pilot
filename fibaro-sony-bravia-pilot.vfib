@@ -68,12 +68,12 @@
           },
           {
             "id": 5,
-            "lua": false,
+            "lua": true,
             "waitForResponse": false,
             "caption": "TV/RAD",
             "name": "button_1_0",
             "empty": false,
-            "msg": "Ciąg znaków do wysłania",
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAABoAAABXAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
             "buttonIcon": 0,
             "favourite": false,
             "main": false
@@ -411,7 +411,7 @@
             "caption": "TV",
             "name": "button_11_0",
             "empty": false,
-            "msg": "--little hacky but could not find ircc code for it\nfibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAgAAAKQAAABbAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));\nfibaro:sleep(1000);\nfibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAABjAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
+            "msg": "fibaro:setGlobal('SB_IP', fibaro:getValue(fibaro:getSelfId(), \"IPAddress\"));\nfibaro:setGlobal('SB_IRCC', 'AAAAAQAAAAEAAAAkAw==');\nfibaro:startScene(fibaro:getGlobalValue('SB_PILOT_SCENEID'));",
             "buttonIcon": 0,
             "favourite": false,
             "main": false
