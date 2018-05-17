@@ -3,6 +3,12 @@ Fibaro Virtual Device for controlling the Sony Bravia TV
 
 ## How to
 
+# TV setup
+* Go to the `Settings` -> `Network` -> `Home network` -> `IP control`
+* Set `Simple IP control` to `On`
+* Set `Authentication` to `Normal and Pre shared key`
+* Set your own `Pre shared key`
+
 # Scenes
 * login to your Fibaro Home Center
 * go to the `Scenes` tab
@@ -23,7 +29,7 @@ Fibaro Virtual Device for controlling the Sony Bravia TV
 * go to the `Panels` tab
 * click on the `Variables Panel` at the left menu
 * create variables: `SB_APP`, `SB_APPCTRL_SCENEID`, `SB_IRCC`, `SB_PILOT_SCENEID`, `SB_PSK`, `SB_IP`
-* set your sony bravia key to the `SB_PSK` variabe
+* set your sony bravia key (Pre shared key) to the `SB_PSK` variabe
 * set your `Sony Bravia Pilot` scene id to the `SB_PILOT_SCENEID`
 * set your `Sony Bravia App Control` scene id to the `SB_APPCTRL_SCENEID`
 
